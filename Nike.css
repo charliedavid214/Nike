@@ -1,0 +1,651 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* section 1 */
+
+.section1{
+    background-color: #f5f5f5;
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 27px;
+    padding-top: 3px;
+}
+.jodstar{
+    padding-right: 10em;
+    display: flex;
+    gap: 20px;
+}
+.jordan{
+    width: 20px;
+    background-color: #f5f5f5;
+}
+.starArrow{
+    width: 25px;
+    background-color: #f5f5f5;
+}
+.nav{
+    display: flex;
+    justify-content: space-between !important;
+    padding-left: 67em;
+    gap: 10px;
+    font-size: 12.8px;
+    padding-top: 2px;
+    list-style: none;
+    text-decoration: none;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.Navbar a:hover{
+    color: gray;
+}
+
+/* section 2 */
+
+.section2{
+    display: flex;
+}
+.nikeIcon{
+    width: 60px;
+    margin-left: 45px;
+}
+.new{
+    display: flex;
+    padding: 15px;
+    margin-left: 19em;
+    list-style: none;
+    gap: 20px;
+    text-decoration: none;
+}
+.new li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.searchbar{
+    margin-left: 110px;
+    border-radius: 40px;
+    width: 140px;
+    margin-top: 10px;
+}
+.searchbar input{
+    width: 175px;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 50px;
+    color: #f5f5f5;
+    font-size: 17px;
+    background-color: #f5f5f5;
+    border: #ffffff;
+}
+.search input:hover{
+    color: #ffffff;
+}
+.searchicon{
+    position: absolute;
+    width: 25px;
+    margin-left: 120px;
+    padding-top: 18px;
+}
+.favouriteIcon{
+    width: 25px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.workIcon{
+    width: 25px;
+    margin-left: 20px;
+}
+
+/* section 3 */
+
+.section3{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 5px;
+}
+.use .usecode{
+    padding-top: 5px;
+    color: black;
+    font-size: 13px;
+}
+
+/* section */
+
+.section4{
+    text-align: center;
+    position: relative;
+}
+.sHoe{
+    width: 93%;
+    height: 300px;
+}
+.Topleft{
+    position: absolute;
+    top: 40px;
+    left: 100px;  
+}
+.backtofall{
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.save{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    color: #ffffff;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.CodeScore{
+    position: absolute;
+    top: 45%;
+    left: 100px;
+    color: #ffffff;
+    font-size: 17px;
+}
+.exclusion{
+    position: absolute;
+    top: 55%;
+    left: 100px;
+    color: #ffffff;
+    font-size: 17px;
+}
+.shop{
+    position: absolute;
+    top: 72%;
+    left: 100px;
+    color: #ffffff;
+    font-size: 17px;
+}
+.SHOP{
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 17px;
+    background-color: #ffffff;
+    border: white;
+}
+.SHOP a{
+    color: black;
+    text-decoration: none;
+}
+button:hover{
+    background-color: gray;
+}
+
+/* section 5 */
+
+
+.section5{
+    font-size: 25px;
+    margin: 80px 55px;
+    position: relative;
+}
+/* .Backtoschool{
+    font-size: 25px;
+    margin: 80px 55px ;
+} */
+
+.Nikejustdoit{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+.BACKTOSCHOOL{
+    position: absolute;
+    top: 57.9%;
+    left: 50px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.BACKTOSCHOOL a{
+    text-decoration: none;
+    color: black;
+}
+.ESSENTIALS{
+    position: absolute;
+    top: 63.9%;
+    left: 50px;
+    color: black;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ESSENTIALS a{
+    text-decoration: none;
+    color: black;
+}
+.Everything{
+    position: absolute;
+    top: 76.9%;
+    left: 50px;
+    color: black;
+    font-size: 15px;
+}
+.Everything a{
+    text-decoration: none;
+    color: black;
+}
+.sho{
+    position: absolute;
+    top: 85%;
+    left: 60px;
+    font-size: 17px;  
+}
+.myshop{
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 17px;
+    background-color: black;
+    border: black;
+}
+.myshop a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.Exp{
+    position: absolute;
+    top: 85%;
+    left: 148px;
+    font-size: 17px;  
+}
+.explore{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 17px;
+    background-color: black;
+    border: black; 
+}
+.explore a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* section 6 */
+
+.BestSellingApparel{
+    font-size: 25px;
+    margin-left: 55px; 
+}
+
+
+/* section 7 */
+
+.wears{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+.womenswear{
+    padding-left: 5px;  
+}
+.womenshortwear{
+    padding-left: 5px;
+}
+.menswear{
+    padding-left: 5px;
+}
+.women{
+    display: flex;
+    margin-top: 15px;
+    font-size: 17px;
+    justify-content: space-between;
+}
+.NikeSportswearEssentials{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.dollar30{
+    padding-right: 15px;
+    cursor: pointer;
+}
+.WomensCroppedLogo{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: gray;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+/* section 8 */
+
+.section8{
+    margin-top: 100px;
+    margin-left: 55px;
+}
+.NikeRunning{
+    font-size: 25px;
+}
+.nikeRunning{
+    margin-top: 35px;
+}
+
+/* section 9 */
+
+.section9{
+    text-align: center;
+    margin-top: 50px;
+}
+.nikeairzoom{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.nikeairzoom a{
+    text-decoration: none;
+    color: black;
+}
+.Tried{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.Tried a{
+    text-decoration: none;
+    color: black;
+}
+.both{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.ho{
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 17px;
+    background-color: black;
+    border: black;
+}
+.ho a{
+    text-decoration: none;
+    color: white;
+}
+.find{
+    width: 220px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 17px;
+    background-color: black;
+    border: black; 
+    margin-left: 5px;
+}
+.find a{
+    text-decoration: none;
+    color: white;
+}
+
+/* section 10 */
+
+.section10{
+    margin-top: 70px;
+    margin-left: 55px;
+    font-size: 25px;
+}
+
+/* section 11 */
+
+.section11{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+.airmaxplus{
+    margin-left: 5px;
+}
+.shoe{
+    display: flex;
+    margin-top: 15px;
+    font-size: 17px;
+    justify-content: space-between;
+}
+.NikeAirmaxPlus{
+    margin-left: 5px;
+    cursor: pointer;   
+}
+.dollar175{
+    padding-right: 15px;
+    cursor: pointer; 
+}
+.shoes{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: gray;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+/* section12 */
+
+.section12{
+    margin-top: 80px;
+    margin-left: 45px;
+    font-size: 25px;
+}
+
+/* section13 */
+.section13{
+    position: relative;
+    margin-top: 40px;
+}
+.nikeshoe{
+    display: flex;
+    justify-content: center;
+}
+.blacknikeshoe{
+    margin-right: 7px;
+}
+.rednikeshoe{
+    margin-right: 7px;
+}
+.shoesalways{
+    position: absolute;
+    top: 71.7%;
+    left: 85px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;  
+}
+.me{
+    margin-top: 40px;
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 17px;
+    background-color: white;
+    border: black;
+}
+.KD15{
+    position: absolute;
+    top: 71.7%;
+    left: 54%;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+.mee{
+    margin-top: 40px;
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 17px;
+    background-color: white;
+    border: black;
+}
+
+/* section14 */
+
+.section14{
+    margin-top: 40px;
+    margin-left: 45px;
+    font-size: 25px;
+}
+
+/* section 15 */
+
+.section15{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.womenshort{
+    margin-left: 40px;
+}
+.kidsshort{
+    margin-left: px;
+}
+.menshort{
+    margin-right: 40px;
+}
+.woman{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.kid{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.man{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* section 16 */
+
+.section16{
+    margin-top: 100px;
+    font-size: 25px;
+    margin-left: 45px;
+}
+
+/* section 17 */
+
+.section17{
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.become{
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.member{
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.signup{
+    position: absolute;
+    top: 55%;
+    left: 80px;
+    font-size: 17px;
+    color: #ffffff;
+}
+.Join{
+    position: absolute;
+    top: 61%;
+    left: 80px;
+}
+.joinUs{
+    margin-top: 40px;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 17px;
+    background-color: white;
+    border: black;
+    cursor: pointer;
+}
+
+/* section 18 */
+
+.section18{
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-around;
+    cursor: pointer;
+    position: relative;
+}
+.firstaccess{
+    margin-left: 40px;
+}
+.shopping{
+    margin-left: 0;
+}
+.nikebyYou{
+    margin-right: 40px;
+}
+.membershop{
+    position: absolute;
+    top: 73%;
+    left: 95px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.shopmember{
+    position: absolute;
+    top: 78%;
+    left: 95px;
+    font-size: 23px;
+    cursor: pointer;  
+}
+.Shipping{
+    position: absolute;
+    top: 73%;
+    left: 38%;
+    font-size: 17px;
+    cursor: pointer; 
+}
+.freestandard{
+    position: absolute;
+    top: 78%;
+    left: 38%;
+    font-size: 23px;
+    cursor: pointer;
+}
+.NikeByYou{
+    position: absolute;
+    top: 73%;
+    left: 70%;
+    font-size: 17px;
+    cursor: pointer; 
+}
+.Customize{
+    position: absolute;
+    top: 78%;
+    left: 70%;
+    font-size: 23px;
+    cursor: pointer;  
+}
+.footer1image, .footer2image{
+    cursor: pointer;
+}
+
